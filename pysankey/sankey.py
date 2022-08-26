@@ -99,8 +99,8 @@ def sankey(left, right, leftWeight=None, rightWeight=None, colorDict=None,
     plt.rc('text', usetex=False)
     #matplotlib.rcParams['font.serif'] = 'Times New Roman'  
     #plt.rc('font', family='serif')
-    #matplotlib.rcParams['font.serif'] = 'Times New Roman'  
-    plt.rc('font', family='serif')
+    mpl.rcParams['font.serif'] = 'Times New Roman'  
+    plt.rc('font', family='serif', size = 20) 
     #plt.rc('font',**{'family':'serif','serif':['Times']})
 
     # Create Dataframe
